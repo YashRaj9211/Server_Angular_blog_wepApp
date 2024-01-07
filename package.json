@@ -1,0 +1,23 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "This is basic server for blogging application with minimal fetures as user login/register, blog post, like and comment feature",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "dev": "npx nodemon index.js"
+  },
+  "author": "YashRaj9211",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "module": "^1.2.5",
+    "mongoose": "^8.0.3"
+  }
+}
